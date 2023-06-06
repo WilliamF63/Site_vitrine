@@ -6,7 +6,6 @@ import Equipements from '../Components/Equipements/Equipements.js';
 import Contact from '../Components/Contact/Contact.js';
 import Footer from '../Components/Footer/Footer.js';
 import ButtonScrollTop from '../Components/ButtonScrollTop/ButtonScrollTop.js';
-import ButtonRDv from '../Components/ButtonRDV/ButtonRDV.js';
 
 export default function Home() {
 
