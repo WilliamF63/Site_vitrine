@@ -15,8 +15,6 @@ export default function Home() {
       <Head>
         <title>CABINET DENTAIRE</title>
       </Head>
-      
-      <NavBar/>
       <Homepage/>
     </>
   );
