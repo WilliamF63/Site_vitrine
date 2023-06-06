@@ -3,6 +3,19 @@
 @tailwind utilities;
 @import '../styles/_reset.css';
 
+@font-face {
+    font-family: "Maiah";
+    src: url(../fonts/maiah-regulardemo.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
 body{
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    background-image: url(../public/images/background/bg-white.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Maiah", sans-serif;
+}
+.background {
+    background-image: url(../public/images/background/bg-white.jpg);
 }
