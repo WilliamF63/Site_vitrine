@@ -19,8 +19,8 @@ const NavBar = () => {
                             </div>
                             <div className="">
                                 <div className="ml-10 flex items-center">
-                                    <a href="/../pages/homepage.js" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
-                                    <a href="/../pages/cabinet.js" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Cabinet</a>
+                                    <a href="/Homepage" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
+                                    <a href="/Cabinet" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Cabinet</a>
                                     <a href="/" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Equipements</a>
                                     <a href="/" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                                     <a href='https://www.doctolib.fr/' className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Prendre RDV</a>

@@ -24,7 +24,7 @@ const Footer = () => {
               </ul>
             </div>
             <div>
-              <h3 className="text-lg font-bold">Colonne 3</h3>
+              <h3 className="text-lg font-bold">Liens</h3>
               <ul className="mt-4 space-y-2">
                 <li><a className="hover:underline" href="lien.html">Lien</a></li>
                 <li><a className="hover:underline" href="lien.html">Lien</a></li>
