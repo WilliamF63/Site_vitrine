@@ -13,10 +13,12 @@ const Homepage = () => {
 
       return (
         <>
-         <section className="">
-          <h1 className="text-5xl uppercase text-center mt-16 pt-16 relative md:text-6xl">
-            Bienvenue au cabinet dentaire</h1>
-          </section>
+         <section className="text-center mt-16">
+          <h1 className="text-5xl pt-16 uppercase md:text-6xl relative inline-block pb-8">
+            Bienvenue au cabinet dentaire
+            <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>
+          </h1>
+</section>
           <section className='mt-14'>
             <Diaporama images={images}/>
           </section>
