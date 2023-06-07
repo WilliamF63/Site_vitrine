@@ -1,6 +1,5 @@
 import Diaporama from '../Homepage/Diaporama.js';
 import ButtonPrendreRDV from '../Homepage/BoutonPrendreRDV.js';
-
 import image1 from '../../public/images/diapo/dt-img.jpg';
 import image2 from '../../public/images/diapo/dt-img2.jpg';
 import image3 from '../../public/images/diapo/dt-img3.jpg';
@@ -35,6 +34,10 @@ const Homepage = () => {
             Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
             magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</h2>
       </section>
+      <a href='https://www.doctolib.fr/' className='uppercase w-48 text-center text-2xl mt-14 mb-12 bg-cyan-950 text-white p-2 flex justify-center items-center
+      mx-auto border rounded-lg hover:bg-cyan-900'>
+        Prendre RDV
+      </a>
        </>
     
       );
