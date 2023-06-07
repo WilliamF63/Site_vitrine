@@ -1,3 +1,4 @@
+import Link from 'next/link.js';
 import Head from 'next/head';
 import NavBar from '../Components/NavBar/NavBar.js';
 import Homepage from '../Components/Homepage/Homepage.js';
@@ -13,6 +14,10 @@ export default function Home() {
     <>
       <Head>
         <title>CABINET DENTAIRE</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"/>
+
       </Head>
       <NavBar/>
       <Homepage/>
