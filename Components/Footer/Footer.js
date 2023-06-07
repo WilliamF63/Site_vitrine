@@ -19,8 +19,8 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li><a className="hover:underline" href="/">Acceuil</a></li>
                 <li><a className="hover:underline" href="/">Cabinet</a></li>
-                <li><a className="hover:underline" href="">Equipements</a></li>
-                <li><a className="hover:underline" href="">Contact</a></li>
+                <li><a className="hover:underline" href="/">Equipements</a></li>
+                <li><a className="hover:underline" href="/">Contact</a></li>
               </ul>
             </div>
             <div>
@@ -30,17 +30,17 @@ const Footer = () => {
                 <li><a className="hover:underline" href="lien.html">Lien</a></li>
               </ul>
             </div>
-            <div>
-                <Image className=""
-                    src="/../public/images/logo/logo-dentiste.png"
-                    alt="Logo"
-                    width={40}
-                    height={40}
-                />
-            </div>
           </div>
         </div>
-        <h2 className="uppercase pb-2 pl-2">© Paul Fernandes</h2>
+        <div className="flex justify-end mr-6">
+              <Image 
+                src="/../public/images/logo/logo-dentiste.png"
+                alt="Logo"
+                width={100}
+                height={100}
+              />
+            </div>
+        <h2 className="uppercase pb-2 pl-2">© Paul Fernandes 2023</h2>
       </footer>
     );
   };
