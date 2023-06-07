@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Footer = () => {
     return (
       <footer className="bg-gray-800 text-white">
@@ -6,9 +8,10 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold">Cabinet dentaire</h3>
               <ul className="mt-4 space-y-2">
-                <li>Élément 1</li>
-                <li>Élément 2</li>
-                <li>Élément 3</li>
+                <li>00 Avenue Rue Impasse</li>
+                <li>63000 Ville</li>
+                <li> - </li>
+                <li>04 00 00 00 00</li>
               </ul>
             </div>
             <div>
@@ -23,14 +26,21 @@ const Footer = () => {
             <div>
               <h3 className="text-lg font-bold">Colonne 3</h3>
               <ul className="mt-4 space-y-2">
-                <li>Élément 1</li>
-                <li>Élément 2</li>
-                <li>Élément 3</li>
+                <li><a className="hover:underline" href="lien.html">Lien</a></li>
+                <li><a className="hover:underline" href="lien.html">Lien</a></li>
               </ul>
+            </div>
+            <div>
+                <Image className=""
+                    src="/../public/images/logo/logo-dentiste.png"
+                    alt="Logo"
+                    width={40}
+                    height={40}
+                />
             </div>
           </div>
         </div>
-        <h2></h2>
+        <h2 className="uppercase pb-2 pl-2">© Paul Fernandes</h2>
       </footer>
     );
   };
