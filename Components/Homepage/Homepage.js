@@ -1,5 +1,6 @@
 import Diaporama from '../Homepage/Diaporama.js';
 import ButtonPrendreRDV from '../Homepage/BoutonPrendreRDV.js';
+import Footer from '../Footer/Footer.js';
 import image1 from '../../public/images/diapo/dt-img.jpg';
 import image2 from '../../public/images/diapo/dt-img2.jpg';
 import image3 from '../../public/images/diapo/dt-img3.jpg';
@@ -37,6 +38,7 @@ const Homepage = () => {
             magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</h2>
       </section>
         <ButtonPrendreRDV/>
+        <Footer/>
        </>
     
       );
