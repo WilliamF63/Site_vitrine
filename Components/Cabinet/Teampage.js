@@ -36,7 +36,7 @@ const TeamPage = () => {
   ];
 
   return (
-    <div className="justify-center justify-items-center my-16 grid grid-cols-3 gap-4">
+    <div className="justify-center justify-items-center my-16 grid grid-cols-3 gap-4 bg-white">
       {teamMembers.map((member, index) => (
         <EquipeDentaire key={index} {...member} />
       ))}

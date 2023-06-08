@@ -1,4 +1,5 @@
 import EquipeDentaire from "./EquipeDentaire";
+import Services from "./Services";
 import TeamPage from "./Teampage";
 
 const Cabinet = () => {
@@ -26,6 +27,7 @@ const Cabinet = () => {
               magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
       </div>
       <TeamPage/>
+      <Services/>
     </>
   );
 };
