@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Image from 'next/image';
 
 const Diaporama = ({ images }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -13,7 +14,7 @@ const Diaporama = ({ images }) => {
 
   return (
     <div className="relative mt-16">
-      <img src={images[currentSlide]} className="w-full h-auto" />
+      <Image src={images[currentSlide]} className="w-full h-auto" />
 
       <button
         className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-gray-800 text-white px-4 py-2 rounded-md"

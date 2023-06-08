@@ -3,7 +3,7 @@ import Image from "next/image";
 const NavBar = () => {
     return (
         
-            <div className="w-full">
+            <div className="w-full fixed -mt-16 z-50">
                 <nav className="bg-gray-800">
                     <div className="ml-3">
                         <div className="flex items-center sm:justify-between h-16">
