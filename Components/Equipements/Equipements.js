@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Equipements = () => {
     return (
         <>
@@ -18,6 +19,14 @@ const Equipements = () => {
               id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
               Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
               magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
+      </div>
+      <div className="flex justify-start w-full sm:w-1/2 my-16 ">
+        <Image className="w-full h-auto"
+            src='/../public/images/equipements/eqp-dt.jpg'
+            alt="Equipement 1"
+            width={500}
+            height={30}
+        />
       </div>
     </>
     )
