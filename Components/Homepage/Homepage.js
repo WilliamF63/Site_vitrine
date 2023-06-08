@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Diaporama from '../Homepage/Diaporama.js';
 import ButtonPrendreRDV from '../Homepage/BoutonPrendreRDV.js';
 import Footer from '../Footer/Footer.js';
