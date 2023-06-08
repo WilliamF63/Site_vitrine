@@ -30,7 +30,7 @@ const Equipements = () => {
                 height={30}
         />
     </div>
-        <div className="mt-2 w-full lg:w-1/2">
+        <div className="mt-2 w-full sm:w-1/2">
             <h2 className="ml-6 uppercase mt-12 text-left text-3xl mb-8 md:text-4xl relative font-semibold">
             équipement 1
             </h2>
