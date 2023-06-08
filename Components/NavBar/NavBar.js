@@ -17,7 +17,7 @@ const NavBar = () => {
                                     />
                                 </a>
                             </div>
-                            <div className="">
+                            <div className="max-w-full">
                                 <div className="ml-10 flex items-center">
                                     <a href="/homepage" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Accueil</a>
                                     <a href="/cabinet" className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium">Cabinet</a>
