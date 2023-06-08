@@ -38,7 +38,6 @@ const Homepage = () => {
             magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</h2>
       </section>
         <ButtonPrendreRDV/>
-        <Footer/>
        </>
     
       );

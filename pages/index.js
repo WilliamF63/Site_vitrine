@@ -20,6 +20,7 @@ export default function Home() {
       </Head>
       <NavBar/>
       <Homepage/>
+      <Footer/>
     </>
   );
 }
