@@ -1,6 +1,5 @@
 import Diaporama from '../Homepage/Diaporama.js';
 import ButtonPrendreRDV from '../Homepage/BoutonPrendreRDV.js';
-import Footer from '../Footer/Footer.js';
 import image1 from '../../public/images/diapo/dt-img.jpg';
 import image2 from '../../public/images/diapo/dt-img2.jpg';
 import image3 from '../../public/images/diapo/dt-img3.jpg';
@@ -19,7 +18,7 @@ const Homepage = () => {
             Bienvenue au cabinet dentaire
             <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>
           </h1>
-</section>
+          </section>
           <section className='mt-14'>
             <Diaporama images={images}/>
           </section>
