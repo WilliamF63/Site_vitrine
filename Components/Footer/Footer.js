@@ -33,7 +33,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex justify-end mr-6">
-              <Image 
+              <Image
                 src="/../public/images/logo/logo-dentiste.png"
                 alt="Logo"
                 width={100}
