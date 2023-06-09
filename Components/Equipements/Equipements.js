@@ -70,7 +70,7 @@ const Equipements = () => {
       leo eget bibendum sodales, augue velit cursus nunc,
     </p>
   </div>
-  <div className="flex justify-end w-full lg:w-1/2 my-16 mx-6 pr-12">
+  <div className="flex justify-end w-full lg:w-1/2 mb-16 lg:my-16 mx-6 pr-12">
     <Image
       className="w-full h-auto"
       src="/../public/images/equipements/eqp-dt2.jpg"

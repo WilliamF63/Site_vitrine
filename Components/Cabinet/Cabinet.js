@@ -13,7 +13,7 @@ const Cabinet = () => {
         <h2 className="ml-6 uppercase mt-12 text-left text-3xl mb-8 md:text-4xl relative font-semibold">
           L'équipe dentaire
         </h2>
-        <p className='mt-16 text-justify text-l mx-6 md:text-lg pb-8'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+        <p className='mt-16 text-justify text-l mx-6 md:text-lg pb-0'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
               pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 
               vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis 
