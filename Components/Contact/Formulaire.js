@@ -18,19 +18,19 @@ const Formulaire = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Vérifier si toutes les cases sont remplies
+    // Verify if all the case are completed
     if (!formData.firstName || !formData.lastName || !formData.subject || !formData.message) {
       setErrorMessage('Veuillez remplir toutes les cases du formulaire.');
       setSuccessMessage('');
-      return; // Arrêter l'exécution de la fonction si une case est manquante
+      return; // Stop the execution of the function if a case is empty
     }
 
-    // Envoyer le formulaire via EmailJS
+    // Email is sent with emailJS
     emailjs.send('service_9nyw4rw', 'template_vyiz1ec', formData, 'HqQthpfYlNpqQDXGl')
       .then((result) => {
         setSuccessMessage('Le formulaire a été envoyé avec succès !');
         setErrorMessage('');
-        // Réinitialisation du formulaire
+        // Reboot of the form
         setFormData({
           firstName: '',
           lastName: '',
@@ -41,7 +41,7 @@ const Formulaire = () => {
       .catch((error) => {
         setErrorMessage('Erreur lors de l\'envoi du formulaire.');
         setSuccessMessage('');
-        // Gérer les erreurs d'envoi du formulaire
+        // Handle the sending errors of the form
       });
   };
 
