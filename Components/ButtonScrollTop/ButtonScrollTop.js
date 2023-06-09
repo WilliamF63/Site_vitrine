@@ -26,7 +26,7 @@ const ButtonScrollTop = () => {
     <div>
       {showButton && (
         <div
-          className="fixed bottom-4 right-4 bg-black text-white rounded-full w-12 h-12 flex justify-center items-center cursor-pointer shadow-md z-50"
+          className="fixed bottom-4 right-4 bg-gray-950 hover:bg-black text-white rounded-full w-12 h-12 flex justify-center items-center cursor-pointer shadow-md z-50"
           onClick={handleScrollTop}
         >
           <svg
