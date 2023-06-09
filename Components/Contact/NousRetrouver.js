@@ -1,15 +1,16 @@
 import Image from "next/image";
+import Map from "./Map";
 
 const NousRetrouver = () => {
     return (
         <>
-        <div className="text-center mt-16">
-        <h1 className="text-5xl pt-16 uppercase md:text-6xl relative inline-block pb-8">
+        <div className="text-center  mt-0">
+        <h1 className="text-5xl pt-0 uppercase md:text-6xl relative inline-block pb-8">
           Nous retrouver
           <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>
         </h1>
         <div/>
-         <div className="flex flex-col lg:flex-row mb-6">
+         <div className="flex flex-col lg:flex-row my-6">
             <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 pr-12">
                 <Image
                     className="w-full h-auto"
