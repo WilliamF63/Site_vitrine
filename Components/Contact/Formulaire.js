@@ -48,7 +48,7 @@ const Formulaire = () => {
   return (
     <div className="bg-gray-700 mb-16 flex justify-center text-white">
       <form className="flex items-center flex-col w-1/2 mt-6" onSubmit={handleSubmit}>
-        {errorMessage && <div className="text-red-500 mb-4 text-center">{errorMessage}</div>}
+        {errorMessage && <div className="text-red-500 mb-4 text-center py-6">{errorMessage}</div>}
         {successMessage && <div className="text-green-500 mb-4 text-center">{successMessage}</div>}
         <div className="mb-4 flex w-full">
           <div className="mr-2 w-full">
