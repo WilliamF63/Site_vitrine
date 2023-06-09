@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '../styles/_reset.css';
+
+@font-face {
+    font-family: "Maiah";
+    src: url(../fonts/maiah-regulardemo.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+body{
+    background-image: url(../public/images/background/bg-white.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans' sans-serif;
+}
