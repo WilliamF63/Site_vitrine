@@ -1,25 +1,46 @@
+
+
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const Formulaire = () => {
-    const [constData, setFormData] = useState({
-        firsName : '',
-        lastName : '',
-        object : '',
-        message : ''
-    })
-    const handleChange = (e) => {
-        setFormData({...formData, [e.target.id]: e.target.value })
-    }
+  const [formData, setFormData] = useState({
+    firstName: '',
+    lastName: '',
+    subject: '',
+    message: ''
+  });
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-    }
+  const handleChange = (e) => {
+    setFormData({ ...formData, [e.target.id]: e.target.value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    // Email sent with emailJS
+    emailjs.send('service_9nyw4rw', 'template_vyiz1ec', formData, 'HqQthpfYlNpqQDXGl')
+      .then((result) => {
+        console.log('Le formulaire a été envoyé avec succès !', result.text);
+        // Form reboot
+        setFormData({
+          firstName: '',
+          lastName: '',
+          subject: '',
+          message: ''
+        });
+      })
+      .catch((error) => {
+        console.error('Erreur lors de l\'envoi du formulaire :', error);
+        // Handle errors
+      });
+  };
 
 
     return (
         <div className="bg-gray-700 mb-16 flex justify-center text-white ">
 
-            <form className="flex items-center flex-col w-1/2 mt-6">
+            <form className="flex items-center flex-col w-1/2 mt-6" onSubmit={handleSubmit}>
             <div className="mb-4 flex w-full">
                     <div className="mr-2 w-full">
                         <label htmlFor="firstName" className="block font-bold mb-1">Prénom</label>
