@@ -1,4 +1,21 @@
+import React, { useState } from 'react';
+
 const Formulaire = () => {
+    const [constData, setFormData] = useState({
+        firsName : '',
+        lastName : '',
+        object : '',
+        message : ''
+    })
+    const handleChange = (e) => {
+        setFormData({...formData, [e.target.id]: e.target.value })
+    }
+
+    const handleSubmit = (e) => {
+        e.preventDefault();
+    }
+
+
     return (
         <div className="bg-gray-700 mb-16 flex justify-center text-white ">
 
@@ -21,7 +38,7 @@ const Formulaire = () => {
                     <label htmlFor="message" className="block font-bold  mb-1">Message</label>
                     <textarea id="message" className="w-full h-full px-3 py-2 border border-gray-300 rounded text-black" rows="4"></textarea>
                 </div>
-                <button type="submit" className="bg-cyan-900 hover:bg-cyan-950 text-white font-bold py-2 px-4 rounded my-12">
+                <button type="submit" className="bg-cyan-900 hover:bg-cyan-950 text-white font-bold py-2 px-4 rounded my-10">
                     Envoyer
                 </button>
             </form>

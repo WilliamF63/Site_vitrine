@@ -20,7 +20,7 @@ const Equipements = () => {
               Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
               magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
       </div>
-      <div className="flex flex-col lg:flex-row bg-gray-950 text-white mb-6">
+      <div className="flex flex-col lg:flex-row bg-gray-700 text-white mb-6">
   <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 pr-12">
     <Image
       className="w-full h-auto"
