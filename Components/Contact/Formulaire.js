@@ -34,7 +34,7 @@ const Formulaire = () => {
                     <label htmlFor="subject" className="block font-bold mb-1">Objet</label>
                     <input type="text" id="subject" className="w-full px-3 py-2 border border-gray-300 rounded text-black" />
                 </div>
-                <div className="mb-4 w-full h-full">
+                <div className="mb-4 w-full h-64">
                     <label htmlFor="message" className="block font-bold  mb-1">Message</label>
                     <textarea id="message" className="w-full h-full px-3 py-2 border border-gray-300 rounded text-black" rows="4"></textarea>
                 </div>

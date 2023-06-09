@@ -1,4 +1,5 @@
 import Formulaire from "./Formulaire";
+import NousRetrouver from "./NousRetrouver"
 
 const Contact = () => {
     return (
@@ -22,6 +23,7 @@ const Contact = () => {
               magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
         </div> 
         <Formulaire/>
+        <NousRetrouver/>
         </>
     )
 }
