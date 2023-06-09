@@ -1,9 +1,11 @@
+import Formulaire from "./Formulaire";
+
 const Contact = () => {
     return (
         <>
         <div className="text-center mt-16">
              <h1 className="text-5xl pt-16 uppercase md:text-6xl relative inline-block pb-8">
-                Contact
+                Nous contacter
                 <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>
             </h1>
             <p className='mt-16 text-justify text-l mx-6 md:text-lg pb-8'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
@@ -18,7 +20,8 @@ const Contact = () => {
               id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
               Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis 
               magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-        </div>
+        </div> 
+        <Formulaire/>
         </>
     )
 }
