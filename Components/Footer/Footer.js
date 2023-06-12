@@ -25,7 +25,7 @@ const Footer = () => {
             <div className="w-2/6 mx-auto text-center mt-3">
                 <h3 className="text-lg font-bold">Liens</h3>
               <ul className="mt-4 space-y-2">
-                <li><a className="hover:underline" href="lien.html">Lien</a></li>
+                <li><a className="hover:underline" href="https://www.doctolib.fr/">Prendre RDV</a></li>
                 <li><a className="hover:underline" href="lien.html">Lien</a></li>
               </ul>
             </div>

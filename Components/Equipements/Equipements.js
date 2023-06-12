@@ -23,14 +23,14 @@ const Equipements = () => {
       <div className="flex flex-col lg:flex-row bg-gray-700 text-white mb-6">
   <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 pr-12">
     <Image
-      className="w-full h-auto"
+      className="w-full h-auto lg:ml-24"
       src="/../public/images/equipements/eqp-dt.jpg"
       alt="Equipement 1"
       width={1000}
       height={30}
     />
   </div>
-  <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14 ">
+  <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14 lg:mx-20 ">
     <h2 className="mx-6 lg:mx-0 uppercase text-left text-3xl mb-8 md:text-4xl relative font-semibold">
       équipement 1
     </h2>
@@ -51,7 +51,7 @@ const Equipements = () => {
   </div>
 </div>
 <div className="flex flex-col lg:flex-row">
-  <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14">
+  <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14 lg:mx-24">
     <h2 className="mx-6 lg:ml-6 uppercase text-left text-3xl mb-8 md:text-4xl relative font-semibold">
       équipement 2
     </h2>
@@ -72,7 +72,7 @@ const Equipements = () => {
   </div>
   <div className="flex justify-end w-full lg:w-1/2 mb-16 lg:my-16 mx-6 pr-12">
     <Image
-      className="w-full h-auto"
+      className="w-full h-auto lg:mr-24"
       src="/../public/images/equipements/eqp-dt2.jpg"
       alt="Equipement 1"
       width={1000}
