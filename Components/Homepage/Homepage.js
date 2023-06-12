@@ -22,7 +22,7 @@ const Homepage = () => {
           <section className='mt-14'>
             <Diaporama images={images}/>
           </section>
-          <section className='mt-16'>
+          <section className='mt-16 lg:mx-24'>
             <h2 className='mt-16 text-justify text-l mx-6 md:text-lg'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
             Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, 
             pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, 

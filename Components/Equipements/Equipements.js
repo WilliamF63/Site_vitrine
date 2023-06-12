@@ -2,7 +2,7 @@ import Image from "next/image";
 const Equipements = () => {
     return (
         <>
-      <div className="text-center mt-16">
+      <div className="text-center mt-16 lg:mx-24 mb-6">
         <h1 className="text-5xl pt-16 uppercase md:text-6xl relative inline-block pb-8">
           Equipements
           <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>

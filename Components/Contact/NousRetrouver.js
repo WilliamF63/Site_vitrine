@@ -4,14 +4,14 @@ import Map from "./Map";
 const NousRetrouver = () => {
     return (
         <>
-        <div className="text-center  mt-0">
+        <div className="text-center mt-0 lg:mx-24">
         <h1 className="text-5xl pt-0 uppercase md:text-6xl relative inline-block pb-8">
           Nous retrouver
           <span className="block h-px bg-black absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1/2"></span>
         </h1>
         <div/>
          <div className="flex flex-col lg:flex-row my-6">
-            <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 pr-12">
+            <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 lg:mt-28 pr-12">
                 <Map/>
         </div>
         <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14 ">
