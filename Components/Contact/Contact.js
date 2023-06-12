@@ -1,5 +1,6 @@
 import Formulaire from "./Formulaire";
 import NousRetrouver from "./NousRetrouver"
+import Map from "./Map";
 
 const Contact = () => {
     return (
@@ -24,8 +25,9 @@ const Contact = () => {
         </div> 
         <Formulaire/>
         <NousRetrouver/>
+
         </>
-    )
-}
+    
+)}
 
 export default Contact;

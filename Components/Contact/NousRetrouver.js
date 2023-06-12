@@ -12,13 +12,7 @@ const NousRetrouver = () => {
         <div/>
          <div className="flex flex-col lg:flex-row my-6">
             <div className="flex justify-start w-full lg:w-1/2 my-16 mx-6 pr-12">
-                <Image
-                    className="w-full h-auto"
-                    src="/../public/images/equipements/eqp-dt.jpg"
-                    alt="Equipement 1"
-                    width={1000}
-                    height={30}
-    />
+                <Map/>
         </div>
         <div className="mt-2 w-full lg:w-1/2 mb-16 md:pt-14 ">
             <h2 className="mx-6 lg:mx-0 uppercase text-left text-3xl mb-8 md:text-4xl relative font-semibold">
