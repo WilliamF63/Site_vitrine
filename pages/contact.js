@@ -10,7 +10,7 @@ const ContactPage = () => {
       <NavBar/>
       <Contact/>
       <Footer/>
-      <ButtonScrollTop/>
+      {/* <ButtonScrollTop/> */}
     </div>
   );
 };

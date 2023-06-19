@@ -6,12 +6,12 @@ import ButtonScrollTop from '../Components/ButtonScrollTop/ButtonScrollTop';
 
 const CabinetPage = () => {
   return (
-    <div>
+    <>
       <NavBar/>
       <Cabinet />
       <Footer/>
       <ButtonScrollTop/>
-    </div>
+    </>
   );
 };
 
