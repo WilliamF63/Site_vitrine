@@ -38,7 +38,7 @@ const NavBar = () => {
               href="/"
               className="block text-gray-300 hover:text-white hover:underline py-2"
             >
-              Home
+              Acceuil
             </a>
             <a
               href="/cabinet"
@@ -64,7 +64,7 @@ const NavBar = () => {
               rel="noopener noreferrer"
               className="block text-gray-300 hover:text-white hover:underline py-2"
             >
-              Book Appointment
+              Prendre RDV
             </a>
           </div>
         )}
@@ -91,7 +91,7 @@ const NavBar = () => {
                   href="/"
                   className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Home
+                  Acceuil
                 </a>
                 <a
                   href="/cabinet"
@@ -117,7 +117,7 @@ const NavBar = () => {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Book Appointment
+                  Prendre RDV
                 </a>
               </div>
             </div>
