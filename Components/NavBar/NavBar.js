@@ -4,16 +4,17 @@ import Image from "next/image";
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  // Function to toggle the menu state
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
   return (
     <div className="w-full md:fixed md:-mt-12 z-50">
-      {/* Navbar burger menu for small screen */}
+      {/* Navbar burger menu for small screens */}
       <div className="md:hidden">
         <button
-          className="text-gray-300 hover:text-white hover:underline px-3 py-2 bg-slate-800 rounded-2xl text-sm font-medium fixed  ml-4 z-50"
+          className="text-gray-300 hover:text-white hover:underline px-3 py-2 bg-slate-800 rounded-2xl text-sm font-medium fixed ml-4 z-50"
           onClick={toggleMenu}
         >
           <svg
@@ -32,11 +33,12 @@ const NavBar = () => {
         </button>
         {isMenuOpen && (
           <div className="bg-gray-800 py-2 px-4 fixed w-full -mt-20 z-40 pl-20 pt-6">
+            {/* Links for the menu */}
             <a
               href="/"
               className="block text-gray-300 hover:text-white hover:underline py-2"
             >
-              Accueil
+              Home
             </a>
             <a
               href="/cabinet"
@@ -48,7 +50,7 @@ const NavBar = () => {
               href="/equipements"
               className="block text-gray-300 hover:text-white hover:underline py-2"
             >
-              Equipements
+              Equipment
             </a>
             <a
               href="/contact"
@@ -62,7 +64,7 @@ const NavBar = () => {
               rel="noopener noreferrer"
               className="block text-gray-300 hover:text-white hover:underline py-2"
             >
-              Prendre RDV
+              Book Appointment
             </a>
           </div>
         )}
@@ -84,11 +86,12 @@ const NavBar = () => {
             </div>
             <div className="max-w-full">
               <div className="ml-10 flex items-center">
+                {/* Links for the navbar */}
                 <a
                   href="/"
                   className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Accueil
+                  Home
                 </a>
                 <a
                   href="/cabinet"
@@ -100,7 +103,7 @@ const NavBar = () => {
                   href="/equipements"
                   className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Equipements
+                  Equipment
                 </a>
                 <a
                   href="/contact"
@@ -114,7 +117,7 @@ const NavBar = () => {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-white hover:underline px-3 py-2 rounded-md text-sm font-medium"
                 >
-                  Prendre RDV
+                  Book Appointment
                 </a>
               </div>
             </div>

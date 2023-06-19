@@ -6,19 +6,23 @@ const ButtonScrollTop = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = document.documentElement.scrollTop;
-      setShowButton(scrollTop > 300); 
+      setShowButton(scrollTop > 300);
     };
 
+    // Add scroll event listener when the component mounts
     window.addEventListener('scroll', handleScroll);
+
+    // Remove scroll event listener when the component unmounts
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
   const handleScrollTop = () => {
+    // Scroll to the top of the page smoothly
     window.scrollTo({
       top: 0,
-      behavior: 'smooth', 
+      behavior: 'smooth',
     });
   };
 
